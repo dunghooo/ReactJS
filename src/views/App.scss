@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+// @font-face{
+//   font-family: DungHo;
+//   src: url('../styles/font/RobotoSlab-VariableFont_wght.ttf');
+// }
+@import '../styles/font.scss';
+// .App {
+//   text-align: center;
+// }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+// .App-logo {
+//   height: 40vmin;
+//   pointer-events: none;
+// }
+
+// @media (prefers-reduced-motion: no-preference) {
+//   .App-logo {
+//     animation: App-logo-spin infinite 20s linear;
+//   }
+// }
+
+// .App-header {
+//   background-color: #282c34;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
+
+// .App-link {
+//   color: #61dafb;
+// }
+
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+body{
+  font-family: DungHo;
+}
+// trang chủ
+// .container{
+//   .botton-xem{
+//     display: flex;
+//   justify-content: center; /* căn giữa theo chiều ngang */
+//   align-items: center; /* căn giữa theo chiều dọc */
+//     button{
+//       font-family: DungHo;
+//       width: 150px;
+//       height: 40px;
+//       border-radius: 10%;
+//       background-color: #efd4d0;
+//       border: 0px  solid #fff;
+//     }
+//   }
+//   .dung{
+//       font-family: DungHo;
+//       color: red;
+//     }
+//   .row{
+//     .product{
+//       img{
+//         width: 95%;
+//       }
+//       p{
+//         width: 90%;
+//         font-family: DungHo;
+//         text-align: center;
+//       }
+      
+//       width: 20%;
+      
+//     }
+    
+//     display: flex;
+//   }
+  
+// }
+// chi tiết
+.container{
+  .link{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #efd4d0;
+    .border-line{
+      
+      margin-left: 50px;
+      width: 5px;
+      height: 80%;
+      background-color: black;
+      border: 3px solid black;
+      border-radius: 20px;
+    }
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

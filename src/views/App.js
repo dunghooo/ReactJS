@@ -1,33 +1,18 @@
 import logo from "./logo.svg";
-import "./App.scss";
+
 import MyComponent from "./MyComponent";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import SanPhamChiTiet from "./SanPhamChiTiet";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 /**
  * 2 components: class component / function component component {function, arrow}
-
+ * JSX
  */
 
 function App() {
   // cosnt App =() =>{
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <MyComponent />
-        {/* <MyComponent></MyComponent> */}
-      </header>
-    </div>
-  );
+  return <SanPhamChiTiet />; /*<MyComponent />;*/
 }
 
 export default App;

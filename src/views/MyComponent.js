@@ -1,4 +1,10 @@
 import React from "react";
+import { Container, Row } from "react-bootstrap";
+
+import Button from "react-bootstrap/Button";
+import "./App.scss";
+import Image from "../assets/images/sp1.png";
+import Image2 from "../assets/images/sp2.png";
 
 class MyComponent extends React.Component {
   state = {
@@ -15,9 +21,184 @@ class MyComponent extends React.Component {
     let name = "Dung Ho";
     return (
       <>
-        <div className="xyz">My youtube channel is {this.state.channel}</div>
-        <div className="abc">
-          Hello my component, My name is {this.state.name}
+        <div className="container">
+          <h1 className="dung text-center pb-3">Sản phẩm mới</h1>
+          <div className="row">
+            <div className="col-md-2 product">
+              <img src={Image}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+          </div>
+          <div className="botton-xem">
+            <button align-item-center>Xem thêm</button>
+          </div>
+          <br></br>
+          <h1 className="dung text-center pb-3">Sản phẩm nổi bật</h1>
+          <div className="row">
+            <div className="col-md-2 product">
+              <img src={Image}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+            <div className="col-md-2 product">
+              <img src={Image2}></img>
+              <p>
+                Tượng hy lạp phong cách cổ đại bla bla bla
+                <br></br>
+                2.900.000đ
+              </p>
+            </div>
+          </div>
+          <div className="botton-xem">
+            <button align-item-center>Xem thêm</button>
+          </div>
         </div>
       </>
     );
